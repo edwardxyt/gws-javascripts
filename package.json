@@ -1,0 +1,25 @@
+{
+  "name": "gws-javascripts",
+  "version": "1.0.0",
+  "description": "utils",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/edwardxyt/gws-javascripts.git"
+  },
+  "keywords": [
+    "javascript",
+    "utils",
+    "tool",
+    "function"
+  ],
+  "author": "edwardxyt",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/edwardxyt/gws-javascripts/issues"
+  },
+  "homepage": "https://github.com/edwardxyt/gws-javascripts#readme"
+}
