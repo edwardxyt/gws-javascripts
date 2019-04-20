@@ -4,13 +4,15 @@
  * @date 2019-04-19
 */
 const path = require('path');
-const init = require('./lib/getModules.js');
-// const cwd = process.cwd();
-// const rootPath = path.resolve(__dirname, "../");
+const version = require("./package.json").version;
 const log = console.log;
 
+// const init = require('./lib/getModules.js');
+// const cwd = process.cwd();
+// const rootPath = path.resolve(__dirname, "../");
 // let gwsUtils = init.getModules(path.join(__dirname, './lib'),'.js');
 
 exports = module.exports = {
+    version,
     arraySort: require(path.join(__dirname, './lib','arraySort.js'))
 }
