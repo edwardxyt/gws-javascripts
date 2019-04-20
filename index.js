@@ -1,18 +1,7 @@
-/**
- * @Description: 这是gws-cli的工具集入口
- * @author Edward Xia
- * @date 2019-04-19
-*/
-const path = require('path');
-const version = require("./package.json").version;
-const log = console.log;
+let version = { version: '0.11.4' };
+import arraySort from './lib/arraySort'
 
-// const init = require('./lib/getModules.js');
-// const cwd = process.cwd();
-// const rootPath = path.resolve(__dirname, "../");
-// let gwsUtils = init.getModules(path.join(__dirname, './lib'),'.js');
-
-exports = module.exports = {
-    version,
-    arraySort: require(path.join(__dirname, './lib','arraySort.js'))
+export {
+    version as default,
+    arraySort
 }
