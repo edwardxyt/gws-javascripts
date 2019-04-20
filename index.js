@@ -5,8 +5,12 @@
 */
 const path = require('path');
 const init = require('./lib/getModules.js');
-const cwd = process.cwd();
+// const cwd = process.cwd();
+// const rootPath = path.resolve(__dirname, "../");
 const log = console.log;
 
-let gwsUtils = init.getModules(path.resolve(cwd, './lib'),'.js');
-exports = module.exports = gwsUtils;
+// let gwsUtils = init.getModules(path.join(__dirname, './lib'),'.js');
+
+exports = module.exports = {
+    arraySort: require(path.join(__dirname, './lib','arraySort.js'))
+}
