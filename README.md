@@ -15,10 +15,11 @@ import gwsJS from "@edwardxyt/gws-javascripts";
 数组排序
 ###### Example:
 ```
-import {arraySort} from "@edwardxyt/gws-javascripts";
+import {ArraySort} from "@edwardxyt/gws-javascripts";
 
+let {bubbleSort} = new ArraySort()
 // 冒泡排序
-arraySort.bubbleSort([1,2,3]).then(data => {
+bubbleSort([1,2,3]).then(data => {
     log(data)
 })
 ```
