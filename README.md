@@ -28,7 +28,7 @@ bubbleSort([1,2,3]).then(data => {
 动态组件
 ###### Example:
 ```
-import { Components } from 'gws-javascripts';
+import { Components } from '@edwardxyt/gws-javascripts';
 
 Components.showAlert('URL中没有获取到 fincId');
 ```
