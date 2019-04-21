@@ -23,3 +23,12 @@ bubbleSort([1,2,3]).then(data => {
     console.log(data)
 })
 ```
+
+##### Components
+动态组件
+###### Example:
+```
+import { Components } from 'gws-javascripts';
+
+Components.showAlert('URL中没有获取到 fincId');
+```
