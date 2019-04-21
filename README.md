@@ -16,10 +16,10 @@ import gwsJS from "@edwardxyt/gws-javascripts";
 ###### Example:
 ```
 import {ArraySort} from "@edwardxyt/gws-javascripts";
+let {bubbleSort} = new ArraySort();
 
-let {bubbleSort} = new ArraySort()
 // 冒泡排序
 bubbleSort([1,2,3]).then(data => {
-    log(data)
+    console.log(data)
 })
 ```
