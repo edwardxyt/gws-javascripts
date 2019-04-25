@@ -25,7 +25,7 @@ bubbleSort([1,2,3]).then(data => {
 ```
 
 ##### Components
-动态组件
+动态组件 具体请看 [@edwardxyt/gws-components](https://www.npmjs.com/package/@edwardxyt/gws-components)
 ###### Example:
 ```
 import { Components } from '@edwardxyt/gws-javascripts';
