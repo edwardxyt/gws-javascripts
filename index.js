@@ -11,7 +11,7 @@ let DOMReady = DOMReadyMethodFactory(window, document);
 export {
     version as default,
     Components,
-    arraySort,
+    ArraySort,
     rules,
     Cache,
     DOMReady,
