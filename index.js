@@ -5,9 +5,7 @@ import Cache from "./lib/cache.js";
 import DOMReadyMethodFactory from "./lib/dom-ready-factory.js";
 import NativeBridgeFactory from "./lib/native-bridge-factory.js";
 
-const version = require("../package.json").version;
-
-let version = {version: version};
+let version = require("../package.json").version;
 let DOMReady = DOMReadyMethodFactory(window, document);
 
 export {
