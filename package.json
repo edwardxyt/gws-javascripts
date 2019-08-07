@@ -1,6 +1,6 @@
 {
   "name": "@edwardxyt/gws-javascripts",
-  "version": "1.0.26",
+  "version": "1.0.27",
   "description": "utils function class tool",
   "main": "index.js",
   "scripts": {
